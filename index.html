@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoplast</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/shopping (1).png"
+      type="image/x-icon"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main" id="main">
+      <header class="desktop-header" id="desktop-header-id">
+        <div class="header-icon"><a href="index.html">shoplast</a></div>
+        <div class="header-items">
+          <a href="/shop/mobiles">MOBILE</a>
+          <a href="/shop/laptops">LAPTOP</a>
+          <a href="/shop/audio">AUDIO</a>
+          <a href="/shop/tv">TV</a>
+          <a href="/shop/gaming"
+            >APPLIANCES<sup class="header-sup" id="header-sup">New</sup></a
+          >
+        </div>
+        <div class="header-input">
+          <i class="ri-search-line"></i>
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search for products, brands and more"
+            autocomplete="off"
+          />
+          <ul class="results" id="results">
+
+          </ul>
+        </div>
+        <div class="header-menu">
+          <i class="ri-search-line"></i>
+          <i class="ri-menu-line"  class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"></i>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Offcanvas right
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">...</div>
+          </div>
+        </div>
+        <div class="header-user">
+          <div class="div-user-profile">
+            <i class="ri-user-3-line"></i>
+          </div>
+          <div class="div-user-wishlist">
+            <i class="ri-heart-line"></i>
+          </div>
+          <div class="div-user-cart">
+            <i class="ri-shopping-bag-4-line"></i>
+          </div>
+        </div>
+      </header>
+      <div id="scroll-top">
+        <section class="desktop-section">
+          <div class="section-one" id="section-one">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img
+                    src="images/Under1499_Tallhero_3000x1200._CB568928188_.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/D91435399_WLA-BAU-Unrec-Hero_DesktopTallHero_3000x1200._CB582928607_.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/D103625178_DesktopTallHero_3000x1200_V3._CB558389732_.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/LA_PC_2x._CB567306626_.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/61CiqVTRBEL._SX3000_.jpg" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <div class="offer-section" id="offer-section">
+              <i class="ri-close-line" id="offer-section-icon"></i>
+              <p>FLAT ₹200 OFF</p>
+            </div>
+            <div class="mobile-section">
+              <div class="mobile-section-title">
+                <h2>Deals On Smartphones</h2>
+              </div>
+              <div class="mobile-section-row"></div>
+              <div class="mobile-section-banner">
+                <img src="images/686d144ac077fa8b.webp" />
+                <img src="images/9d2cf3d5ba43e6d3.webp" />
+                <img src="images/8ef45d1b66ae24c6.webp" />
+              </div>
+            </div>
+            <div class="laptop-section">
+              <div class="laptop-section-title">
+                <h2>Deals On Laptops</h2>
+              </div>
+              <div class="laptop-section-row"></div>
+              <div class="mobile-section-banner">
+                <img src="images/dd449b3ad81af0ec.webp" alt="" />
+                <img src="images/2d71c9fd37817522.webp" alt="" />
+                <img src="images/30761d1a3099ad11.webp" alt="" />
+              </div>
+            </div>
+            <div class="audio-section">
+              <div class="audio-section-title">
+                <h2>Audios</h2>
+              </div>
+              <div class="audio-section-row"></div>
+            </div>
+            <div class="tv-section">
+              <div class="tv-section-title">
+                <h2>Android TV's</h2>
+              </div>
+              <div class="tv-section-row"></div>
+            </div>
+            <div class="gaming-section">
+              <div class="gaming-section-title">
+                <h2>Appliances</h2>
+              </div>
+              <div class="gaming-section-row"></div>
+            </div>
+          </div>
+        </section>
+        <div class="main-loader" id="main-loader">
+          <div class="loader"></div>
+        </div>
+        <footer style="display: none;" id="main-footer">
+          <div class="foot-panel1" id="foot-panel1" onclick="topFunction()">
+              Back to Top
+          </div>
+  
+          <div class="foot-panel2">
+              <ul>
+                  <li>Get to Know Us</li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Shoplast Newsletter</a></li>
+                  <li><a href="#">About Shoplast</a></li>
+                  <li><a href="#">Accessibility</a></li>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Press Center</a></li>
+                  <li><a href="#">Investor Relations</a></li>
+                  <li><a href="#">Shoplast Devices</a></li>
+                  <li><a href="#">Shoplast Science</a></li>
+              </ul>
+              <ul>
+                  <li>Make Money with Us</li>
+                  <li><a href="#">Sell products on Shoplast</a></li>
+                  <li><a href="#">Sell on Shoplast Business</a></li>
+                  <li><a href="#">Sell apps on Shoplast</a></li>
+                  <li><a href="#">Become an Affiliate</a></li>
+                  <li><a href="#">Advertise Your Products</a></li>
+                  <li><a href="#">Self-Publish with Us</a></li>
+                  <li><a href="#">Host an Shoplast Hub</a></li>
+                  <li><a href="#">See More Make Money with Us</a></li>
+              </ul>
+              <ul>
+                  <li>Shoplast Payment Products</li>
+                  <li><a href="#">Shoplast Business Card</a></li>
+                  <li><a href="#">Shop with Points</a></li>
+                  <li><a href="#">Reload Your Balance</a></li>
+                  <li><a href="#">Shoplast Currency Converter</a></li>
+              </ul>
+              <ul>
+                  <li>Let Us Help You</li>
+                  <li><a href="#">Shoplast and COVID-19</a></li>
+                  <li><a href="#">Your Account</a></li>
+                  <li><a href="#">Your Orders</a></li>
+                  <li><a href="#">Shipping Rates & Policies</a></li>
+                  <li><a href="#">Return & Replacements</a></li>
+                  <li><a href="#">Manage Your Content and Devices</a></li>
+                  <li><a href="#">Shoplast Assistant</a></li>
+                  <li><a href="#">Help</a></li>
+              </ul>
+          </div>
+  
+          <div class="foot-panel3">
+              <div class="logo">
+  
+              </div>
+          </div>
+  
+          <div class="foot-panel4">
+              <div class="pages">
+                  <a href="#">Conditions of Use</a>
+                  <a href="#">Privacy Notice</a>
+                  <a href="#">Your Ads Privacy Choices</a>
+              </div>
+              <div class="copyright">
+                  © 2024, Shoplast.com, Inc. or its affiliates
+              </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
